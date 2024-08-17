@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    
+    background:url(bg.svg);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden; /* Disable vertical scroll */
+}
+.text-center{
+    margin-top: 20px;
+}
+.container {
+    background-color: rgba(108, 98, 98, 0.539); /* Slightly transparent background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px); /* Subtle shadow */
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sidebarmenu {
+    width: 100%;
+}
+.sidebarmenu .shape {
+    background-color: rgba(108, 91, 91, 0.539); /* Slightly transparent background */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px); /* Subtle shadow */
+    height:100%;
+    position: fixed;
+    border-radius: 15px;
+}
+
+.img {
+    height: 70px;
+    width: 190px;
+    display: flex;
+    padding: -20px;
+}
+.images{
+    height: 70px;
+    width: 190px;
+    margin-top: 18px;
+    margin-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.menu {
+    list-style: none;
+    font-size: 17px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.menu li {
+    color: #ffffff;
+    padding: 5px 0;
+    margin: 4px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: ease-in 0.3s; /* Add smooth background transition */
+}
+
+.menu a:hover {
+    background:hsla(0, 0%, 100%, 0.185); /* Darker background on hover */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+    box-shadow: black;
+    animation: ease 2.ms;
+}
+.menu img {
+    margin-right: 10px;
+}
+/* Style the submenu */
+.submenu {
+    display: none; /* Initially hide the submenu */
+    position: flex;
+    top: 0;
+    left: 100%; /* Position to the right of the parent menu item */
+    padding: 10px;
+    list-style: none;
+    z-index: 1; /* Ensure the submenu is above other content */
+}
+
+/* Style the submenu items */
+.submenu li {
+    padding: 5px 0;
+}
+
+.submenu a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+/* Show the submenu when the parent menu item is hovered */
+.menu-sub:hover .submenu {
+    display: block;
+}
+/* Style the card */
+.card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.card-header h1 {
+    font-size: 24px;
+    color: #fff;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+/* Style the alert message */
+.alert {
+    background: transparent;
+    border: none;
+    color: #fff;
+    box-shadow: none;
+    padding: 0;
+}
+
+.alert-dismissible .close {
+    color: #fff;
+}
+
+/* Style the form */
+.form-group label {
+    color: #fff;
+}
+
+.form-control {
+    background-color: rgba(108, 91, 91, 0.539);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.input-group-text {
+    background-color: transparent;
+    border: none;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* Hover effect for the submit button */
+.btn-primary:hover {
+    background-color: hsla(0, 0%, 100%, 0.185);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s;
+}
+.container2{
+    background-color: rgba(138, 135, 135, 0.539); /* Slightly transparent background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px); /* Subtle shadow */
+    padding: 40px;
+    border-radius: 10px;
+    height: 50vh;
+
+}
